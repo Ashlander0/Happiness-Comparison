@@ -54,7 +54,7 @@ CREATE TABLE Happiness_2018(
 	Freedom decimal, 
 	Generosity decimal,
 	Trust VARCHAR(12)
--- 	Had to change data type to varchar due to issue with 'N/A' value on line 21
+-- 	Had to change data type to varchar due to issue with 'N/A' value on line 21 of 2018.csv file
 )
 
 CREATE TABLE Happiness_2019(
