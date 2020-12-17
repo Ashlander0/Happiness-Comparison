@@ -10,8 +10,13 @@ CREATE TABLE Happiness_2015(
 	Freedom decimal, 
 	Trust decimal,
 	Generosity decimal, 
-	Dystopia_Residual decimal
-)
+	Dystopia_Residual decimal,
+	Military_Expenditure_GDP decimal,
+	Population_Growth decimal,
+	Population_Density decimal,
+	Pop_Refugees_Abroad varchar(10),
+	Pop_Refugee_Intake decimal
+);
 
 CREATE TABLE Happiness_2016(
 	Country VARCHAR(60),
@@ -26,8 +31,13 @@ CREATE TABLE Happiness_2016(
 	Freedom decimal, 
 	Trust decimal,
 	Generosity decimal, 
-	Dystopia_Residual decimal
-)
+	Dystopia_Residual decimal,
+	Military_Expenditure_GDP decimal,
+	Population_Growth decimal,
+	Population_Density decimal,
+	Pop_Refugees_Abroad varchar(10),
+	Pop_Refugee_Intake decimal
+);
 
 CREATE TABLE Happiness_2017(
 	Country VARCHAR(60),
@@ -41,8 +51,13 @@ CREATE TABLE Happiness_2017(
 	Freedom decimal, 
 	Trust decimal,
 	Generosity decimal, 
-	Dystopia_Residual decimal
-)
+	Dystopia_Residual decimal,
+	Military_Expenditure_GDP decimal,
+	Population_Growth decimal,
+	Population_Density decimal,
+	Pop_Refugees_Abroad varchar(10),
+	Pop_Refugee_Intake decimal
+);
 
 CREATE TABLE Happiness_2018(
 	Happiness_Rank int,
@@ -53,9 +68,14 @@ CREATE TABLE Happiness_2018(
 	Health decimal,
 	Freedom decimal, 
 	Generosity decimal,
-	Trust VARCHAR(12)
+	Trust VARCHAR(30),
 -- 	Had to change data type to varchar due to issue with 'N/A' value on line 21
-)
+	Military_Expenditure_GDP decimal,
+	Population_Growth decimal,
+	Population_Density decimal,
+	Pop_Refugees_Abroad varchar(10),
+	Pop_Refugee_Intake decimal
+);
 
 CREATE TABLE Happiness_2019(
 	Happiness_Rank int,
@@ -66,8 +86,13 @@ CREATE TABLE Happiness_2019(
 	Health decimal,
 	Freedom decimal, 
 	Generosity decimal, 
-	Trust decimal
-)
+	Trust decimal,
+	Military_Expenditure_GDP decimal,
+	Population_Growth decimal,
+	Population_Density decimal,
+	Pop_Refugees_Abroad varchar(10),
+	Pop_Refugee_Intake decimal
+);
 
 
 
