@@ -14,9 +14,10 @@ CREATE TABLE Happiness_2015(
 	Military_Expenditure_GDP decimal,
 	Population_Growth decimal,
 	Population_Density decimal,
-	Pop_Refugees_Abroad decimal,
+	Pop_Refugees_Abroad varchar(10),
 	Pop_Refugee_Intake decimal
-)
+);
+
 
 CREATE TABLE Happiness_2016(
 	Country VARCHAR(60),
@@ -35,9 +36,10 @@ CREATE TABLE Happiness_2016(
 	Military_Expenditure_GDP decimal,
 	Population_Growth decimal,
 	Population_Density decimal,
-	Pop_Refugees_Abroad decimal,
+	Pop_Refugees_Abroad varchar(10),
 	Pop_Refugee_Intake decimal
-)
+);
+
 
 CREATE TABLE Happiness_2017(
 	Country VARCHAR(60),
@@ -55,9 +57,9 @@ CREATE TABLE Happiness_2017(
 	Military_Expenditure_GDP decimal,
 	Population_Growth decimal,
 	Population_Density decimal,
-	Pop_Refugees_Abroad decimal,
+	Pop_Refugees_Abroad varchar(10),
 	Pop_Refugee_Intake decimal
-)
+);
 
 CREATE TABLE Happiness_2018(
 	Happiness_Rank int,
@@ -68,14 +70,15 @@ CREATE TABLE Happiness_2018(
 	Health decimal,
 	Freedom decimal, 
 	Generosity decimal,
-	Trust VARCHAR(12)
+	Trust VARCHAR(30),
 -- 	Had to change data type to varchar due to issue with 'N/A' value on line 21
 	Military_Expenditure_GDP decimal,
 	Population_Growth decimal,
 	Population_Density decimal,
-	Pop_Refugees_Abroad decimal,
+	Pop_Refugees_Abroad varchar(10),
 	Pop_Refugee_Intake decimal
-)
+);
+
 CREATE TABLE Happiness_2019(
 	Happiness_Rank int,
 	Country VARCHAR(60),
@@ -89,9 +92,10 @@ CREATE TABLE Happiness_2019(
 	Military_Expenditure_GDP decimal,
 	Population_Growth decimal,
 	Population_Density decimal,
-	Pop_Refugees_Abroad decimal,
+	Pop_Refugees_Abroad varchar(10),
 	Pop_Refugee_Intake decimal
-)
+);
+
 
 
 
