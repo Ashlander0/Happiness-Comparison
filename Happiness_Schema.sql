@@ -18,6 +18,7 @@ CREATE TABLE Happiness_2015(
 	Pop_Refugee_Intake decimal
 );
 
+
 CREATE TABLE Happiness_2016(
 	Country VARCHAR(60),
 	Region VARCHAR(60),
@@ -38,6 +39,7 @@ CREATE TABLE Happiness_2016(
 	Pop_Refugees_Abroad varchar(10),
 	Pop_Refugee_Intake decimal
 );
+
 
 CREATE TABLE Happiness_2017(
 	Country VARCHAR(60),
@@ -93,6 +95,7 @@ CREATE TABLE Happiness_2019(
 	Pop_Refugees_Abroad varchar(10),
 	Pop_Refugee_Intake decimal
 );
+
 
 
 
