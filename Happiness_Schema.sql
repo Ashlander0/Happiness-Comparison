@@ -11,11 +11,11 @@ CREATE TABLE Happiness_2015(
 	Trust decimal,
 	Generosity decimal, 
 	Dystopia_Residual decimal,
-	Military Expenditure of GDP,
-	Population Growth,
-	Population Density,
-	Pop % as Refugees Abroad,
-	Pop % as Refugee Intake
+	Military_Expenditure_GDP decimal,
+	Population_Growth decimal,
+	Population_Density decimal,
+	Pop_Refugees_Abroad decimal,
+	Pop_Refugee_Intake decimal
 )
 
 CREATE TABLE Happiness_2016(
@@ -32,11 +32,11 @@ CREATE TABLE Happiness_2016(
 	Trust decimal,
 	Generosity decimal, 
 	Dystopia_Residual decimal,
-	Military Expenditure of GDP,
-	Population Growth,
-	Population Density,
-	Pop % as Refugees Abroad,
-	Pop % as Refugee Intake	
+	Military_Expenditure_GDP decimal,
+	Population_Growth decimal,
+	Population_Density decimal,
+	Pop_Refugees_Abroad decimal,
+	Pop_Refugee_Intake decimal
 )
 
 CREATE TABLE Happiness_2017(
@@ -52,11 +52,11 @@ CREATE TABLE Happiness_2017(
 	Trust decimal,
 	Generosity decimal, 
 	Dystopia_Residual decimal,
-	Military Expenditure of GDP,
-	Population Growth,
-	Population Density,
-	Pop % as Refugees Abroad,
-	Pop % as Refugee Intake	
+	Military_Expenditure_GDP decimal,
+	Population_Growth decimal,
+	Population_Density decimal,
+	Pop_Refugees_Abroad decimal,
+	Pop_Refugee_Intake decimal
 )
 
 CREATE TABLE Happiness_2018(
@@ -70,13 +70,12 @@ CREATE TABLE Happiness_2018(
 	Generosity decimal,
 	Trust VARCHAR(12)
 -- 	Had to change data type to varchar due to issue with 'N/A' value on line 21
-	Military Expenditure of GDP,
-	Population Growth,
-	Population Density,
-	Pop % as Refugees Abroad,
-	Pop % as Refugee Intake	
+	Military_Expenditure_GDP decimal,
+	Population_Growth decimal,
+	Population_Density decimal,
+	Pop_Refugees_Abroad decimal,
+	Pop_Refugee_Intake decimal
 )
-
 CREATE TABLE Happiness_2019(
 	Happiness_Rank int,
 	Country VARCHAR(60),
@@ -87,11 +86,11 @@ CREATE TABLE Happiness_2019(
 	Freedom decimal, 
 	Generosity decimal, 
 	Trust decimal,
-	Military Expenditure of GDP,
-	Population Growth,
-	Population Density,
-	Pop % as Refugees Abroad,
-	Pop % as Refugee Intake	
+	Military_Expenditure_GDP decimal,
+	Population_Growth decimal,
+	Population_Density decimal,
+	Pop_Refugees_Abroad decimal,
+	Pop_Refugee_Intake decimal
 )
 
 
